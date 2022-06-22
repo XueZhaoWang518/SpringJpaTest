@@ -43,8 +43,8 @@ public class CompanyController {
     }
 
     @DeleteMapping("/{companyId}")
-    public void deleteUser(@PathVariable Long companyId) {
-        companyService.deleteUser(companyId);
+    public void deletCompany(@PathVariable Long companyId) {
+        companyService.deleteCompany(companyId);
     }
 }
 

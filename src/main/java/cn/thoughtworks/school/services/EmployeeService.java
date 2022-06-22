@@ -1,21 +1,15 @@
 package cn.thoughtworks.school.services;
-import cn.thoughtworks.school.entities.Company;
 import cn.thoughtworks.school.entities.Employee;
 import cn.thoughtworks.school.repositories.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import java.util.List;
 import java.util.Optional;
 
 @Service
 public class EmployeeService {
-    public EmployeeService() {
-
-    }
     @Autowired
     private EmployeeRepository employeeRepository;
 

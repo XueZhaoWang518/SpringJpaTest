@@ -1,8 +1,6 @@
 package cn.thoughtworks.school.controllers;
 
-import cn.thoughtworks.school.controllers.response.CreateCompanyResponse;
 import cn.thoughtworks.school.entities.Employee;
-import cn.thoughtworks.school.repositories.EmployeeRepository;
 import cn.thoughtworks.school.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import cn.thoughtworks.school.controllers.request.CreateEmployeeRequest;
-import java.util.List;
+
 
 
 @RestController

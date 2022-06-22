@@ -51,7 +51,7 @@ public class CompanyService {
         return false;
     }
 
-    public void deleteUser(Long companyId)
+    public void deleteCompany(Long companyId)
     {
 
         companyRepository.deleteById(companyId);
