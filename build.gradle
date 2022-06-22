@@ -45,7 +45,7 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.boot:spring-boot-devtools'
-    compile 'mysql:mysql-connector-java:5.1.6'
+    compile 'mysql:mysql-connector-java:8.0.29'
     compile 'org.apache.httpcomponents:httpclient:4.4'
     compile 'org.apache.httpcomponents:httpmime:4.4'
     compile 'org.json:json:20140107'
@@ -58,6 +58,8 @@ dependencies {
     testCompile 'org.codehaus.groovy:groovy-all:2.4.6'
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
+    testCompile 'org.springframework.boot:spring-boot-starter-data-test'
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
 }
 
 dependencyManagement {
